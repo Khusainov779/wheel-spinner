@@ -1,0 +1,51 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    width: auto;
+    margin: 0 auto;
+}
+
+.spin-wheel {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.marker {
+    position: absolute;
+    width: 100px;
+    right: -95px;
+    top: 36%;
+}
+.wheel {
+    width: 400px;
+}
+
+.button {
+    width: 136px;
+    height: 136px;
+    font-size: 20px;
+    position: absolute;
+    top: 33%;
+    border-radius: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    cursor: pointer;
+    background: chartreuse;
+}
